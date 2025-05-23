@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>BBEditDocumentType</key>
+    <string>CodelessLanguageModule</string>
+    <key>BBLMLanguageDisplayName</key>
+    <string>SPARQL</string>
+    <key>BBLMLanguageCode</key>
+    <string>SPQL</string>
+    <key>BBLMColorsSyntax</key>
+    <true/>
+    <key>BBLMIsCaseSensitive</key>
+    <true/>
+    <key>BBLMScansFunctions</key>
+    <true/>
+    <key>BBLMCommentLineDefault</key>
+    <string>#</string>
+
+    <key>BBLMKeywordList</key>
+    <array>
+        <string>SELECT</string>
+        <string>WHERE</string>
+        <string>CONSTRUCT</string>
+        <string>DESCRIBE</string>
+        <string>ASK</string>
+        <string>FROM</string>
+        <string>GRAPH</string>
+        <string>PREFIX</string>
+        <string>BASE</string>
+        <string>FILTER</string>
+        <string>OPTIONAL</string>
+        <string>UNION</string>
+        <string>MINUS</string>
+        <string>BIND</string>
+        <string>SERVICE</string>
+        <string>VALUES</string>
+        <string>ORDER</string>
+        <string>BY</string>
+        <string>LIMIT</string>
+        <string>OFFSET</string>
+        <string>GROUP</string>
+        <string>HAVING</string>
+        <string>DISTINCT</string>
+        <string>REDUCED</string>
+        <string>AS</string>
+        <string>NOT</string>
+        <string>IN</string>
+        <string>EXISTS</string>
+        <string>LOAD</string>
+        <string>CLEAR</string>
+        <string>DROP</string>
+        <string>ADD</string>
+        <string>MOVE</string>
+        <string>COPY</string>
+        <string>CREATE</string>
+        <string>INSERT</string>
+        <string>DELETE</string>
+        <string>WITH</string>
+        <string>USING</string>
+    </array>
+
+    <key>BBLMSuffixMap</key>
+    <array>
+        <dict>
+            <key>BBLMLanguageSuffix</key>
+            <string>.rq</string>
+        </dict>
+        <dict>
+            <key>BBLMLanguageSuffix</key>
+            <string>.sparql</string>
+        </dict>
+    </array>
+
+    <key>BBLMPreferredFilenameExtension</key>
+    <string>rq</string>
+
+    <key>Language Features</key>
+    <dict>
+        <key>Identifier and Keyword Character Class</key>
+        <string>A-Za-z0-9_-</string>
+        <key>Prefix and Suffix Word Characters</key>
+        <string>:</string>
+        
+        <key>Open Line Comments</key>
+        <string>#</string>
+
+        <key>Open Strings 1</key>
+        <string>"</string>
+        <key>Close Strings 1</key>
+        <string>"</string>
+        <key>Escape Char in Strings 1</key>
+        <string>\</string>
+        <key>End-of-line Ends Strings 1</key>
+        <true/>
+
+        <key>Open Strings 2</key>
+        <string>'</string>
+        <key>Close Strings 2</key>
+        <string>'</string>
+        <key>Escape Char in Strings 2</key>
+        <string>\</string>
+        <key>End-of-line Ends Strings 2</key>
+        <true/>
+
+        <key>Open Strings 3</key>
+        <string>"""</string>
+        <key>Close Strings 3</key>
+        <string>"""</string>
+        <key>Escape Char in Strings 3</key>
+        <string>\</string>
+
+        <key>Open Strings 4</key>
+        <string>'''</string>
+        <key>Close Strings 4</key>
+        <string>'''</string>
+        <key>Escape Char in Strings 4</key>
+        <string>\</string>
+
+        <key>Open Statement Blocks</key>
+        <string>{</string>
+        <key>Close Statement Blocks</key>
+        <string>}</string>
+
+        <key>Number Regular Expression</key>
+        <string>(\b[0-9]+\b)|(\b0x[0-9A-Fa-f]+\b)|(\b[0-9]+\.[0-9]*\b)|(\b[0-9]*\.[0-9]+\b)|(\b[0-9]+[eE][+-]?[0-9]+\b)</string>
+    </dict>
+</dict>
+</plist>
